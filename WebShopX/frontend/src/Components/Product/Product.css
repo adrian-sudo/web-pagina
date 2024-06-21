@@ -1,0 +1,39 @@
+/*Contenedor de productos en la pagina principal*/
+.Card_product {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px 10px 10px 2px rgb(0, 0, 0, 0.2);
+  border: 6px solid transparent;
+  border-radius: 5px;
+}
+.Card_product:hover {
+  border: 1px solid #2596be;
+}
+/*Imagenes de los procutos en la pagina principal*/
+.card-img-top {
+  width: 300px;
+  height: 300px;
+  object-fit: contain; /*Con esto evitamos que la imagen se deforme*/
+}
+/*Titulo de los productos en Home-Screen*/
+.product-title {
+  text-decoration: none;
+  color: black;
+}
+/*Estilos de las estrellas de calificacion de productos*/
+.rating span {
+  color: #ffc000;
+}
+
+/*Media responsive*/
+
+/*De 1400px hacia abajo se aplican estos estilos*/
+@media only screen and (max-width: 1400px) {
+  .card-img-top {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+  }
+}

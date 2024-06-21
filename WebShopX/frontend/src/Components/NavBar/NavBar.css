@@ -1,0 +1,23 @@
+/*Estilos de la barra*/
+.Navbar {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+  box-shadow: 0 12px 10px -10px #2596be;
+}
+/*Logo de la empresa en la NavBar*/
+.Logo img {
+  width: 300px; 
+}
+/*De 445px hacia abajo se aplican estos estilos*/
+@media only screen and (max-width: 445px) {
+  .Logo img {
+   width: 180px;
+ } 
+}
+/*De 325px hacia abajo se aplican estos estilos*/
+@media only screen and (max-width: 325px) {
+ .Logo img {
+  width: 70px;
+} 
+}

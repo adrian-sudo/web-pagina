@@ -1,0 +1,45 @@
+/*Estilos del boton de "Agregar al carrito"*/
+.btn-primary,
+.btn-outline-primary {
+  background-color: #2596be;
+  color: white;
+  border: none;
+}
+/*Estilos del la informacion del producto en Product-Screen*/
+.Product-info {
+  padding: 1rem;
+}
+/*imagenes en la seccion de Product-Screen*/
+.img-large {
+  box-shadow: 1px 10px 10px 2px rgb(0, 0, 0, 0.2);
+  border: 2px solid transparent;
+  border-radius: 5px;
+  object-fit: contain;
+}
+/*Nombre de los productos en Place-order*/
+.link-product-placeorder {
+  text-decoration: none;
+  margin-left: 2rem;
+  color: #333;
+}
+.link-product-placeorde:hover {
+  color: #2596be;
+}
+/*Link Inciar sesión en la parte de reviews en Product-Screen*/
+.link-reviews{
+    text-decoration: none;
+  }
+/*Estilos de los botones en Product-List*/
+.btn-editar {
+  margin: 0.2rem;
+  background-color: #2ecc71;
+  color: white;
+}
+.btn-eliminar {
+  margin: 0.2rem;
+  background-color: crimson;
+  color: white;
+}
+
+
+

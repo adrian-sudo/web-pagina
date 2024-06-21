@@ -1,0 +1,9 @@
+/*Estilo del carrito de compras*/
+.img-thumbnail {
+    height: 80px; /*Imagen miniatura del carrtio*/
+  }
+  /*Titulo de los productos en Cart-Screen*/
+  .product-title-cart {
+    text-decoration: none;
+    color: black;
+  }

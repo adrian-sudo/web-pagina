@@ -1,0 +1,9 @@
+.carousel .carousel-item img {
+    max-height: 500px;
+  }
+.carousel{
+  box-shadow: 1px 10px 10px 2px rgb(0, 0, 0, 0.2);
+  border-radius: 5px;
+  object-fit: contain;
+  margin-bottom: 2rem;
+}  

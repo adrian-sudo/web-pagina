@@ -1,0 +1,14 @@
+/*Link de editar informacion en Place-order*/
+.edit-info{
+    text-decoration: none;
+    color: #333;
+  }
+  .edit-info:hover{
+    color: #2596be;
+  }
+  /*Icono de editar en la pagina de realizar pedido*/
+.icon-edit-info{
+  font-size: 20px;
+  margin-top: 1rem;
+  color: #2596be;
+}

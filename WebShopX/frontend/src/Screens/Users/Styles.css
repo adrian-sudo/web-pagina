@@ -1,0 +1,21 @@
+/*Estilos de la pagina login*/
+.small-container {
+    max-width: 600px;
+  }
+  /*Link de registrarse*/
+.Link-checkIn {
+    text-decoration: none;
+    color: black;
+  }
+  .Link-checkIn:hover {
+    color: #2596be;
+  }
+  /*Link de iniciar sesión*/
+.Link-signin{
+    text-decoration: none;
+    color: black;
+  }
+  .Link-signin:hover{
+    color: #2596be;
+  }
+ 
